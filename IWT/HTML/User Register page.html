@@ -1,0 +1,121 @@
+<html>
+<head>
+<link rel="stylesheet" href="../CSS/UserRP style.css">
+<script src="../JAVA/UserRP.js"></script>
+</head>
+<body id="bo">
+	<a href="#"><img src="../IMAGES/logo.jpg" width="110px" height="110px"></a>
+	<img src="../IMAGES/accpic.png" width="100" height="100" class="accpic">
+		<div class="dropdown" style="float:right;" id="accbtn">
+		  <button class="btn btn1" class="dropbtn1">Account</button>
+			<div class="dropdown-content">
+			  <a href="User Login page.html">User Login</a>
+		 	 <a href="../HTML/lecture login.html">Lecturer Login</a>
+		 	 <a href="University login.html">University Login</a> 
+		 	 <a href="../HTML/Advertiser Login.html">Advertiser login</a>
+		</div>
+	</div>
+<h2><ul class="nav">
+		<li class="lii" class="lii a"><a href="#Home">Home</a></li>
+		<li class="lii dropdown" class="lii a">
+			<a class="dropbtn"  href="Coures  page.html">Courses</a>
+				<div class="dropdown-content">
+					<a href="Faculty Computing.html">Faculty of Computing</a>
+					<a href="Faculty of Engineering.html">Faculty of Engineering</a>
+					<a href="#">Faculty of Business Management</a>
+					<a href="#">Faculty of Information Technology</a>
+					<a href="#">Faculty of Architecture</a>
+					<a href="#">Faculty of Law</a></li>
+		<li class="lii dropdown" class="lii a">
+			<a class="dropbtn">University</a>
+				<div class="dropdown-content">
+					<a href="government university page.html">Government University</a>
+					<a href="private university page.html">Private University</a></li></div>
+		<li class="lii" class="lii a"><a href="#Contact">Contact</a></li>
+		<li class="lii" class="lii a"><a href="#About">About</a></li>
+		</h2></ul></hr>
+		<div class="signup-form">
+			<form method="POST" action="../PHP/User Register.php" onsubmit="return cla()">
+			  <h1>Sign Up</h1>
+			  
+			  <h2 style="float: left; color: white;">User Details<hr class="hr1"></h2>
+			  <label for="name" id="userd3">Name</label>
+			  	<input type="text" class="txtb" id="margin" id="fname"  name="name" required>
+			  
+			  <label for="email" class="userd">E-mail</label>
+			  	<input type="email" class="txtb" id="email" name="email" required>
+			  
+			  <label for="pass" class="userd1">Password</label>
+				  <input type="password" class="txtb" id="password" name="password"  pattern = ".{8,}" required>
+				  
+			  <label for="repass" class="userd2">Repassword</label>
+			  	<input type="password" class="txtb" id="repass" required>
+			  
+			  <h2 style="color: white;" id="margintext">University Details<hr class="hr2"></h2>
+			  <label class="font" for="unitype">University Type</label><br>
+			  <select id="unitype" name="unitype" class="txtb" required>
+				  <option>Government</option>
+				  <option>Private</option>
+			  </select>
+			  
+			  <label class="font1" for="uni">University</label><br>
+			  <select id="uni" name="uni" class="txtb" required>
+				<option>SLIIT</option>
+				<option>University of Colombo</option>
+				<option>NSMB</option>
+				<option>University of Kelaniya</option>
+				<option>University of Sri Jayewardenepura</option>
+				<option>Open University of Sri Lanka</option>
+				<option>University of Moratuwa</option>
+				<option>NIMB</option>
+			  </select>
+			  
+			  <label for="unicourse" class="font2">University Coures</label><br>
+				<select id="unicourse" name="unicourse" class="txtb" required>
+				  <option >BSc (Hons) in Information Technology Specialising in Data Science (SLIIT)</option>
+				  <option>BSc (Hons) in Information Technology Specialising in Cyber Security (SLIIT)</option>
+				  <option>BSc (Hons) in Information Technology Specialising in Software Engineering (SLIIT)</option>
+				  <option>BSc (Hons) in Information Technology Specialising in Interactive Media (SLIIT)</option>
+				  <option>BSc (Hons) in Information Technology Specialising in Computer Systems & Network Engineering (SLIIT)</option>
+				  <option>BSc (Hons) in Software Engineering (NSBM)</option>
+				  <option>BSc (Hons) in Computer Networks (NSBM)</option>
+				  <option>BSc (Hons) in Computer Science (NSMB)</option>
+				  <option>BSc (Hons) Computing (NIBM)</option>
+				  <option>BSc (Hons) Information Technology for Business (NIBM)</option>
+				  <option>Honours Degree of Bachelor of Business Science (MORA)</option>
+				  <option>Specialisation: Mechanical Engineering (MORA)</option>
+				  <option>BSc (Hons) Information and Communication Technology (SJP)</option>
+				  <option>Bachelor of Software Engineering Honours(OUSL)</option>
+				  <option>Bachelor of Laws Degree Programme(OUSL)</option>
+				  <option>Bachelor of Science(OUSL)</option>
+				  <option>BSc Business Administration (SJP)</option>
+				</select>
+			<center>
+			  <input type="submit" value="Create Account" class="signup-btn" >
+			</center>
+			  <a href="User Login page.html">Already Have one ?</a>
+			</form>
+		  </div>
+<div class="footer">
+	<div class="footer-content">
+		
+		<div class="footer-section about">
+			<h1 id="text">UniSup.lk</h1>
+			<p id="text">This site represents an online helpdesk for university students.This site allows
+			students to choose the coures that best suits has their profrssional qualifications.Therefore this site is helpful for students to choose 
+			the university for their choice and the coures.</p><br>
+				<p id="text">Tel: +94 987-654-321 | E-mail: info@UniSup.com</p>
+		</div>
+		<div class="footer-section links"></div>
+			<div id="footerimgW">
+				<a href="https://web.whatsapp.com/"><img src="../IMAGES/whatapp.jpg" width="30px" height="30px"></a>
+				<a href="https://www.youtube.com/"><img src="../IMAGES/youtube.png" width="30px" height="30px"></a>
+				<a href="https://www.facebook.com/"><img src="../IMAGES/facebook.png" width="30px" height="30px"></a>
+			</div>
+	</div>
+	<div class="footer-bottom" id="text">
+		&copy; UniSup.com | Designed By MLB_PG.02.01_04
+	</div> 
+</div>
+</body>
+</html>

@@ -1,0 +1,61 @@
+table{
+    width:700px;
+
+    border:2px solid black ;
+}
+
+th,td{
+    border:2px solid black;
+    padding:2px;
+    
+
+}
+
+fieldset{
+    border: solid;
+}
+
+legend{
+    background-color: wheat;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.hh{
+    width:400px;
+    position: absolute;
+    height:40px;
+}
+
+.button {
+    background-color: blueviolet; 
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+  }
+
+  
+  .but:hover{
+    background-color: tomato;
+    color:white ;
+  }
+
+
+  body{
+      background-image: url(../images/php.jpg);
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-size: cover;
+
+  }
+
+  lable{
+      font-size:20px;
+  }

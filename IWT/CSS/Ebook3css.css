@@ -1,0 +1,31 @@
+body{
+	background-image: url("../IMAGES/back.jpeg");
+	background-attachment:fixed;
+	background-repeat:no repeat;
+	background-size:100%100%;
+}
+.nam{
+	font-family:Verdana;
+	margin-top:100px;
+	margin-left:510px;
+}
+
+
+.pic{
+	margin-top:100px;
+	margin-left:550px;
+}
+.para{
+	width:100%;
+	font-family:Verdana;
+	margin-top:50px;
+	margin-right:30px;
+}
+.but{
+	font-family:arial;
+	background-color:red;
+	font-size:30px;
+	height:50px;
+	width:200px;
+	border-radius:100px;
+}

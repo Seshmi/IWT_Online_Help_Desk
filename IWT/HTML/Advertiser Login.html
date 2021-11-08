@@ -1,0 +1,92 @@
+<html>
+<head>
+<link rel="stylesheet" href="../CSS/Advertiser Login.css">
+<script type="text/javascript" src="../JS/Advertiser Login.js login.js">
+</script>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body id="bo">
+<img src="../IMAGES/logo.jpg" width="110px" height="110px">
+<img src="../IMAGES/accpic.png" width="100" height="100" class="accpic">
+	<div class="dropdown" style="float:right;" id="accbtn">
+	  <button class="btn btn1" class="dropbtn1" >Account</button>
+		<div class="dropdown-content">
+		  <a href="../HTML/User Login page.html">User Login</a>
+		  <a href="../HTML/lecture login.html">Lecturer Login</a>
+		  <a href="../HTML/University login.html">University Login</a> 
+		  <a href="../HTML/Advertiser Login.html">Advertiser login</a>
+		</div>
+	</div>
+<h2><ul class="nav">
+		<li class="lii" class="lii a"><a href="../HTML/Non_Reg_home.php">Home</a></li>
+	
+			<li class="lii" class="lii a"><a href="#">My Account</a></li>
+			<li class="lii" class="lii a"><a href="#">My Advertisements</a></li>
+			<li class="lii" class="lii a"><a href="#">Add Advertisements</a></li>
+		<li class="lii" class="lii a"><a href="#">Contact</a></li>
+		<li class="lii" class="lii a"><a href="#">About</a></li>
+		</h2></ul></hr>
+
+<div class="container">
+
+<div class="regform"><h2><center>Advertiser Login Form</center></h2></div>
+<center><button onclick="document.getElementById('id01').style.display='block'" class="log" style="width:auto;">Login</button></center>
+<hr>
+
+<div id="id01" class="modal">
+
+<div class="margin"> 
+<form method= "POST" action="../PHP/Advertiser Login_db.php">
+<div>
+ <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+ 
+  <div class="container">
+	<div class="main">
+    <center><label for="email"><b>Email</b></label></center>
+    <center><input type="email" placeholder="Enter Email" name="email" required><br></center>
+
+    <center><label for="psw"><b>Password</b></label></center>
+    <center><input type="password"  placeholder="Enter Password" name="password" required><br></center>
+        
+    <center><input type="submit" value="Login" class="submit" name="submit"></center><br>
+	
+	<center><div class="container">
+	<center><button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button></center>
+    <span class="fpsw"><a href="Forgot password.html"> Forgot Password</a></span>
+	</div><br></center>
+    
+	<center><input type="checkbox" checked="checked" name="remember"> Remember me next time</center><br>
+	
+	<center><a href="../HTML/Registration.html"> Register</a></center>  
+	</div>
+	</div>
+	</hr>
+</form>
+</div>
+</div>
+
+<div class="footer">
+	<div class="footer-content">
+		
+		<div class="footer-section about">
+			<h1 id="text">UniSup.lk</h1>
+			<p id="text">This site represents an online helpdesk for university students.This site allows
+			students to choose the coures that best suits has their profrssional qualifications.Therefore this site is helpful for students to choose 
+			the university for their choice and the coures.</p><br>
+				<p id="text">Tel: +94 987-654-321<br>
+				E-mail: info@uniSup.com</p>
+		</div>
+		<div class="footer-section links"></div>
+			<div id="footerimgW">
+				<a href="https://web.whatsapp.com/"><img src="../IMAGES/whatapp.jpg" width="30px" height="30px"></a>
+				<a href="https://www.youtube.com/"><img src="../IMAGES/youtube.png" width="30px" height="30px"></a>
+				<a href="https://www.facebook.com/"><img src="../IMAGES/facebook.png" width="30px" height="30px"></a>
+			</div>
+	</div>
+	<div class="footer-bottom" id="text">
+		&copy; UniSup.com | Designed By IT Group
+	</div> 
+</div>
+
+</body>
+</html>
